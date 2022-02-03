@@ -48,6 +48,30 @@
     --font-lg : 1.8rem;
     --font-xl : 2rem;
 
+    /* Colors for alerts */
+    --alert-color-primary : #084298;
+    --alert-color-primary-bg : #cfe2ff;
+    --alert-color-primary-border : #b6d4fe;
+
+    --alert-color-secondary : #41464b;
+    --alert-color-secondary-bg : #e2e3e5;
+    --alert-color-secondary-border : #d3d6d8;
+
+    --alert-color-success : #0f5132;
+    --alert-color-success-bg : #d1e7dd;
+    --alert-color-success-border : #badbcc;
+
+    --alert-color-danger : #842029;
+    --alert-color-danger-bg : #f8d7da;
+    --alert-color-danger-border : #f5c2c7;
+
+    --alert-color-warning : #664d03;
+    --alert-color-warning-bg : #fff3cd;
+    --alert-color-warning-border : #ffecb5;
+
+    --alert-color-info : #055160;
+    --alert-color-info-bg : #cff4fc;
+    --alert-color-info-border : #b6effb;
     
 }
 html{
