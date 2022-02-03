@@ -1,0 +1,89 @@
+/* ------------------Component Styles--------------- */
+@import './components/components.css';
+
+
+/* ------------------Docsite Styles--------------- */
+@import './docsite-css/navbar.css';
+@import './docsite-css/hero.css';
+@import './docsite-css/main.css';
+@import './docsite-css/documentation.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    /* random color scheme */
+    --color1:#ff3f6c;
+    --color2 :#AA1155;
+    --color3 :#880044;
+    --color4 :#DD1155;
+    --color5 :#FFEE88;
+    --color6 :#00CC99;
+    --color7 :#C41155;
+    --color8 :#131200;
+/* Gradient Colors */
+    --color-1:#1D53FF;
+    --color-2:#00A1FF;
+    --color-3:#00D4FB;
+    --color-4:#62FBD4;
+
+
+    /* text colors */
+    --text-color-black:black;
+    --text-color-white:white;
+    --text-color-grey: #718096;
+    --text-color-light-grey: #a0aec0;
+    --text-color-very-light-grey: #cfd6e0;
+    --text-color-green: #319795;
+    --text-color-light-green:#ecfdfa;
+
+    /* logo colors */
+    --logo-color-1 : #5be7c4;
+    --logo-color-1-rgb: rgb(91,231,196);
+    --logo-color-2 : #7bebcf;
+    --logo-color-2-rgb: rgb(123,235,207);
+
+    /* non header font-sizes */
+    --font-sm : 1rem;
+    --font-md : 1.5rem;
+    --font-lg : 1.8rem;
+    --font-xl : 2rem;
+
+    
+}
+html{
+    font-size:62.5%;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    height: 100%;
+    position: relative;
+}
+
+main{
+    grid-area: main;
+    /* background-color: var(--color2); */
+}
+
+.spacer-8rem {
+    height: 8rem;
+    width: 100%;
+}
+
+.threed-img{
+    width: 100%;
+}
+@media screen and (max-width:767px){
+    html{
+        font-size: 50%;
+    }
+}
+
