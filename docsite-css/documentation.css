@@ -71,18 +71,21 @@
     font-size: 3rem;
     text-transform: capitalize;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .component__header-desc{
     font-size: var(--font-lg);
     margin-bottom: 2rem;
     font-weight: 300;
+    margin-bottom: 3rem;
 }
 
 .component__example-header{
     font-size: 2rem;
     font-weight: 600;
     text-transform: capitalize;
+    margin-bottom: 1rem;
     
 }
 
@@ -90,6 +93,7 @@
     font-size: var(--font-lg);
     margin-bottom: 2rem;
     font-weight: 300;
+    margin-bottom: 3rem;
 }
 
 .component__example-demo{
