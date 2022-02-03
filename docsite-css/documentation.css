@@ -71,7 +71,7 @@
 }
 
 .component__header-desc{
-    font-size: 1.5rem;
+    font-size: var(--font-lg);
     margin-bottom: 2rem;
     font-weight: 300;
 }
@@ -84,7 +84,7 @@
 }
 
 .component__example-desc{
-    font-size: 1.5rem;
+    font-size: var(--font-lg);
     margin-bottom: 2rem;
     font-weight: 300;
 }
