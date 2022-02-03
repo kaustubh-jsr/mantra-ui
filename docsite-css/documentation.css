@@ -56,7 +56,10 @@
 }
 
 .main-section{
-    padding: 2rem 8rem;
+    padding: 2rem 4rem;
+    justify-self: center;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 .component{
@@ -118,4 +121,10 @@
 
 .code-in-text{
     color: var(--color-1);
+}
+
+@media screen and (max-width:768px){
+    .sidenav{
+        display: none;
+    }
 }
