@@ -1,0 +1,150 @@
+/* -----------------------Hero Section Headers, Text Styles------------------------- */
+.hero{
+    --grd-color-1:#003cff;
+    /* --grd-color-2:rgba(61,245,167,1); */
+    --grd-color-2:#62FBD4;
+    width: 100%;
+    grid-area: hero;
+    background-image: linear-gradient(126deg, #4ac5ac,#f8feb2);
+    background-image: linear-gradient(126deg, #007ebb,#009771);
+    /* background-image: linear-gradient( 130deg, var(--grd-color-1) , var(--grd-color-2) ); */
+    background-image: linear-gradient( 130deg, var(--color-1) , var(--color-2),var(--color-3), var(--color-4) 85%);
+    background-size: 200%;
+    animation: bg-animation 10s infinite alternate;
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% ); */
+    /* background-image: linear-gradient( 113.3deg,  rgba(217,9,27,1) 6.9%, rgba(22,68,150,1) 75% ); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    position: relative;
+    padding: 12rem 0;
+}
+
+@keyframes bg-animation{
+    0% {
+        background-position : left
+    }
+    100% {
+        background-position: right;
+    }
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 2rem 0;
+    width: 80rem;
+}
+
+.hero-header::selection{
+    background-color: #001d57;
+    color: white;
+}
+.hero-header{
+    /* width: fit-content; */
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 10%);
+}
+.hero-subheader{
+    /* padding: 0 2rem; */
+    font-size: 2rem;
+    font-weight: 300;
+    /* line-height: 2rem; */
+    text-align: center;
+}
+.hero-subheader::selection{
+    background-color: #001d57;
+    color: white;
+}
+.hero-btns{
+    display: flex;
+    column-gap: 1rem;
+}
+.hero-btn{
+    padding: 1rem 4rem;
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: #001a4e;
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 200ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-btn.hero-btn-primary:hover{
+    background-color: grey;
+}
+.hero-btn.hero-btn-primary:active{
+    background-color: rgb(61, 61, 61);
+}
+.hero-btn-secondary{
+    border: 1px solid #001a4e;
+    background-color: transparent;
+    color: #001a4e;
+}
+.hero-btn-secondary:hover{
+    background-color: #001a4e;
+    color: white;
+}
+.hero-btn-secondary:active{
+    background-color: #000d27;
+}
+
+/* -------------Custom Shape waves bottom--------------- */
+.custom-shape-divider-bottom-1643461053 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643461053 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1643461053 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1643461053 svg {
+        width: calc(100% + 1.3px);
+        height: 63px;
+    }
+}
+
+
+
+@media screen and (max-width:930px){
+    .hero-text{
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width:767px){
+    .hero-text{
+        width: 100%;
+    }
+    .hero-btns{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .hero-btn{
+        width: 40vw;
+        text-align: center;
+    }
+}
