@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9fb30d1717.js" crossorigin="anonymous"></script>
+    
+    <title>Mantra UI</title>
+</head>
+<body>
+    <nav class="documentation-nav">
+        <div class="img-container">
+            <img src="./logo_no-padding.jpg" alt="" srcset="">
+        </div>
+        <ul class="nav-links primary-nav-main-links flex">
+            <li>
+                <a href="./">Home</a>
+            </li>
+            <li>
+                <a href="">Documentation</a>
+            </li>
+        </ul>
+        <ul class="nav-links primary-nav-side-links flex">
+            <li>
+                <a href="" class="fab fa-twitter"></a>
+            </li>
+            <li>
+                <a href="" class="fab fa-github"></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="documentation-container">
+        
+        <div class="sidenav">
+            <section class="sidenav-section">
+                <div class="sidenav-section__header">
+                    Components
+                </div>
+                <ul class="sidenav-section__links">
+                    <a  class="sidenav-section__link" href=""><li>Avatar </li></a>
+                    <a class="sidenav-section__link" href=""><li>Alert</li> </a>
+                    <a class="sidenav-section__link" href=""><li>Badge</li> </a>
+                    <a class="sidenav-section__link" href=""><li>Button</li> </a>
+                    <a class="sidenav-section__link" href=""><li>Cards</li> </a>
+                    <a class="sidenav-section__link" href=""><li>Navigation</li> </a>
+                    <a class="sidenav-section__link" href=""><li>Toast</li> </a>
+                    <a class="sidenav-section__link" href=""><li>Modal</li> </a>
+                </ul>
+            </section>
+            <div class="sidenav-section__div"><hr class="sidenav-section__divider"></div>
+            <section class="sidenav-section">
+                <div class="sidenav-section__header">
+                    Utilites
+                </div>
+                <ul class="sidenav-section__links">
+                    <a  class="sidenav-section__link" href=""><li>Avatar </li></a>
+                    <a class="sidenav-section__link" href=""><li>Alert</li> </a>
+                    <a class="sidenav-section__link" href=""><li>Badge</li> </a>
+                    <a class="sidenav-section__link" href=""><li>Button</li> </a>
+                </ul>
+            </section>
+        </div>
+
+
+        <section class="main-section">
+            <div class="component">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Alert
+                </div>
+                <div class="component__header-desc">
+                    Alerts are used to draw attention of the user, to certain information like process completion/success/failure/information without interrupting the usual work flow
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Alerts without closing buttons
+                </div>
+                <div class="component__example-desc">
+                    Here we have 6 types of alerts, each of them serving a different purpose. Each alert box has a basic skelton (the structure, padding, and margins) and a skin (color).
+                    You can access the skelton alert box by adding an "alert" class and following it with the type of skin (color) you may require (say "alert-success").
+                    <br>
+                    To use links in alert box, use the <code class="code-in-text">.alert-link</code> utility class to provide links with colors matching to the alert box.
+                </div>
+                <div class="component__example-demo">
+                    <div class="alert alert-primary">
+                        A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    </div>
+                    <div class="alert alert-secondary">
+                    A simple secondary alert—check it out!
+                    </div>
+                    <div class="alert alert-success">
+                        <span><i class="fas fa-check-circle"></i></span> 
+                        A simple success alert—check it out!
+                    </div>
+                    <div class="alert alert-danger">
+                        A simple danger alert—check it out!
+                    </div>
+                    <div class="alert alert-warning">
+                        <span><i class="fas fa-exclamation-triangle"></i></span>
+                        A simple warning alert—check it out!
+                    </div>
+                    <div class="alert alert-info">
+                        A simple info alert—check it out!
+                    </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=888&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520A%2520simple%2520primary%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%2520if%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%2509A%2520simple%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520A%2520simple%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520danger%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520A%2520simple%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520info%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E"
+                    style="overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-header">
+                    Alert with a close button
+                </div>
+                <div class="component__example-desc">
+                    Alert can also have a close button to close the alert.Below is the demo.
+                </div>
+                <div class="component__example-demo">
+                      <div class="alert alert-warning" role="alert">
+                        A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                        &times;
+                      </div>
+                </div>
+                <div class="component__example-code">
+                    <<iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=888&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520A%2520simple%2520primary%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%2520if%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%2509A%2520simple%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520A%2520simple%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520danger%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520A%2520simple%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520info%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E"
+                    
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                <div class="component__example-header">
+                    Alert Example 1
+                </div>
+                <div class="component__example-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias ex necessitatibus dignissimos. Minus placeat voluptatum porro ad, earum dolore.
+                </div>
+                <div class="component__example-demo">
+                    some examples here
+                </div>
+                <div class="component__example-code">
+                    code here
+                </div>
+                <div class="component__example-header">
+                    Alert Example 1
+                </div>
+                <div class="component__example-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias ex necessitatibus dignissimos. Minus placeat voluptatum porro ad, earum dolore.
+                </div>
+                <div class="component__example-demo">
+                    some examples here
+                </div>
+                <div class="component__example-code">
+                    code here
+                </div>
+                <div class="component__example-header">
+                    Alert Example 1
+                </div>
+                <div class="component__example-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias ex necessitatibus dignissimos. Minus placeat voluptatum porro ad, earum dolore.
+                </div>
+                <div class="component__example-demo">
+                    some examples here
+                </div>
+                <div class="component__example-code">
+                    code here
+                </div>
+                <div class="component__example-header">
+                    Alert Example 1=8
+                </div>
+                <div class="component__example-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias ex necessitatibus dignissimos. Minus placeat voluptatum porro ad, earum dolore.
+                </div>
+                <div class="component__example-demo">
+                    some examples here
+                </div>
+                <div class="component__example-code">
+                    code here
+                </div>
+            </div>
+            <!-- -- for element like 
+            /* ListingCard.css */
+.ListingCard { }
+.ListingCard--featured { }
+.ListingCard__title { }
+.ListingCard__content { }
+
+.ListingCard is the “block” and represents the higher-level component
+.ListingCard__title is an “element” and represents a descendant of .ListingCard that helps compose the block as a whole.
+.ListingCard--featured is a “modifier” and represents a different state or variation on the .ListingCard block.
+
+
+<a class="btn btn--big btn--orange" href="https://css-tricks.com">
+  <span class="btn__price">$9.99</span>
+  <span class="btn__text">Subscribe</span>
+</a>
+
+
+Avoid binding to the same class in both your CSS and JavaScript. Conflating the two often leads to, at a minimum, time wasted during refactoring when a developer must cross-reference each class they are changing, and at its worst, developers being afraid to make changes for fear of breaking functionality.
+
+We recommend creating JavaScript-specific classes to bind to, prefixed with .js-:
+
+<button class="btn btn-primary js-request-to-book">Request to Book</button>
+-->
+        </section>
+        
+    </div>
+    <footer class="documentation-footer">
+        <div class="footer-links">
+          <a href="" class="fab fa-twitter"></a>
+          <a href="" class="fab fa-github"></a>
+          <a href="" class="fab fa-linkedin"></a>
+        </div>
+        <div class="footer-text">
+          © No Copyright, Feel free to replicate.
+        </div>
+    </footer>
+</body>
+</html>
