@@ -49,5 +49,25 @@
 }
 
 .alert-primary .alert-link {
-    color: #06357a;
+    color: var(--alert-color-primary-link);
+}
+
+.alert-secondary .alert-link {
+    color: var(--alert-color-secondary-link);
+}
+
+.alert-success .alert-link {
+    color: var(--alert-color-success-link);
+}
+
+.alert-danger .alert-link {
+    color: var(--alert-color-danger-link);
+}
+
+.alert-warning .alert-link {
+    color: var(--alert-color-warning-link);
+}
+
+.alert-info .alert-link {
+    color: var(--alert-color-info-link);
 }

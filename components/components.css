@@ -1,14 +1,12 @@
 @import './alert.css';
 
 .btn-close {
-    box-sizing: content-box;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
     padding: 4px;
     color: #000;
     background: transparent url("../resources/close-btn.svg") center/1em auto no-repeat;
     border: 0;
-    border-radius: 4px;
     opacity: .5;
     cursor: pointer;
     vertical-align: middle;
