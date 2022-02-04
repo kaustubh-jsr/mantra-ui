@@ -1,1 +1,20 @@
-@import './alert.css'
+@import './alert.css';
+
+.btn-close {
+    width: 2rem;
+    height: 2rem;
+    padding: 4px;
+    color: #000;
+    background: transparent url("../resources/close-btn.svg") center/1em auto no-repeat;
+    border: 0;
+    opacity: .5;
+    cursor: pointer;
+    vertical-align: middle;
+    position: absolute;
+    margin-left: 2px;
+    right: 5px;
+}
+
+.btn-close:hover{
+    opacity: 1;
+}

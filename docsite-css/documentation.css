@@ -56,7 +56,10 @@
 }
 
 .main-section{
-    padding: 2rem 8rem;
+    padding: 2rem 4rem;
+    justify-self: center;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 .component{
@@ -65,36 +68,50 @@
 }
 
 .component__header{
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .component__header-desc{
-    font-size: var(--font-xl);
+    font-size: var(--font-lg);
     margin-bottom: 2rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    line-height: 2.5rem;
 }
 
 .component__example-header{
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 600;
     text-transform: capitalize;
+    margin-bottom: 1rem;
     
 }
 
 .component__example-desc{
     font-size: var(--font-lg);
     margin-bottom: 2rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    line-height: 2.5rem;
 }
 
 .component__example-demo{
     height: fit-content;
-    border: 1px solid var(--text-color-grey);
     border-radius: 4px;
     margin-bottom: 2rem;
     padding: 1rem;
+    box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
 }
+/* ------Styles for containers of different component, some have row layout, others column */
 
+.alert__example-demo-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
 
 .component__example-code{
     display: flex;
@@ -103,7 +120,7 @@
     border-radius: 4px;
     margin-bottom: 2rem;
     padding: 1rem 0;
-    height: 30rem;
+    height: max-content;
     overflow: auto;
 }
 
@@ -116,4 +133,10 @@
 
 .code-in-text{
     color: var(--color-1);
+}
+
+@media screen and (max-width:768px){
+    .sidenav{
+        display: none;
+    }
 }
