@@ -113,6 +113,13 @@
     row-gap: 1rem;
 }
 
+.avatar__example-demo-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .component__example-code{
     display: flex;
     justify-content: center;
