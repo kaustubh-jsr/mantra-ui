@@ -41,7 +41,7 @@
                 <ul class="sidenav-section__links">
                     <a class="sidenav-section__link" href="#alert-section"><li>Alert</li> </a>
                     <a  class="sidenav-section__link" href="#avatar-section"><li>Avatar </li></a>
-                    <a class="sidenav-section__link" href=""><li>Badge</li> </a>
+                    <a class="sidenav-section__link" href="#badge-section"><li>Badge</li> </a>
                     <a class="sidenav-section__link" href=""><li>Button</li> </a>
                     <a class="sidenav-section__link" href=""><li>Cards</li> </a>
                     <a class="sidenav-section__link" href=""><li>Navigation</li> </a>
@@ -159,7 +159,7 @@
                     Image Avatar
                 </div>
                 <div class="component__example-desc">
-                    Mantra UI provide avatars in 6 different sizes.To use avatar add <code class="code-in-text">.avatar</code> to a div and
+                    Mantra UI provide avatars in 5 different sizes.To use avatar add <code class="code-in-text">.avatar</code> to a div and
                     a required size indicator using any of the size classes eg. <code class="code-in-text">.avatar-xl, .avatar-lg, .avatar-md
                      .avatar-sm, .avatar-xs</code>.
                      <br>
@@ -219,7 +219,98 @@
                     </iframe>
                 </div>
             </div>
+            <div class="spacer-8rem"></div>
 
+            <!-- -----------Badge Component------------------------ -->
+            <div class="component" id="badge-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Badge
+                </div>
+                <div class="component__header-desc">
+                    Badges are small status descriptors for UI elements.
+                    A badge consists of a small circle, typically containing a number or other short set of characters, that appears in proximity to another object.
+                    They are visual cues of some information related to the UI element they appear on. Eg. Status of a user (active, inactive, idle) could be depicted using a badge
+                    on the user avatar.
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Badge on Avatar
+                </div>
+                <div class="component__example-desc">
+                    Mantra UI provide badges for all 5 avatar sizes.Badge can be added to an avatar, by using a parent <code class="code-in-text">.badge-container</code>
+                    and putting the <code class="code-in-text">.avatar</code> and <code class="code-in-text">.status-badge</code> as child elements of the parent.
+                     <br>
+                     To give the badge a color indicator of a particular status, use one of the three <code class="code-in-text">.status-active, .status-idle, .status-inactive</code> classes.
+                     Copy and use the demo code below to get up and running with avatar badges.
+                </div>
+                <div class="component__example-demo avatar__example-demo-container">
+                    <div class="badge-container">
+                        <div class="avatar avatar-xl">
+                        <img class="img-round img-responsive" src="../mantra-ui/resources/avatar-img-1.jpg" alt="">
+                        </div>
+                        <span class="status-badge status-active"></span>
+                    </div>
+                    <div class="badge-container">
+                        <div class="avatar avatar-lg avatar-text">
+                            KP
+                        </div>
+                        <span class="status-badge status-idle"></span>
+                    </div>
+                    <div class="badge-container">
+                        <div class="avatar avatar-md">
+                            <img class="img-round img-responsive" src="../mantra-ui/resources/avatar-img-2.jpg" alt="">
+                        </div>
+                        <span class="status-badge status-inactive"></span>
+                    </div>
+                    <div class="badge-container">
+                        <div class="avatar avatar-sm">
+                            <img class="img-round img-responsive" src="../mantra-ui/resources/avatar-img-1.jpg" alt="">
+                        </div>
+                        <span class="status-badge status-badge-online"></span>
+                    </div>
+                    <div class="badge-container">
+                        <div class="avatar avatar-xs">
+                            <img class="img-round img-responsive" src="../mantra-ui/resources/avatar-img-1.jpg" alt="">
+                        </div>
+                        <span class="status-badge status-badge-online"></span>
+                    </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--This%2520is%2520status-badge%2520for%2520online%2520status%2520of%2520user.%2520Add%2520class%2520names%2520according%2520to%2520size%2520and%2520status%2520color%2520you%2520want.--%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2520img-responsive%2522%2520src%253D%2522..%252Fmantra-ui%252Fresources%252Favatar-img-1.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-active%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520KP%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-idle%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2520img-responsive%2522%2520src%253D%2522..%252Fmantra-ui%252Fresources%252Favatar-img-2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-inactive%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2520img-responsive%2522%2520src%253D%2522..%252Fmantra-ui%252Fresources%252Favatar-img-1.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2520img-responsive%2522%2520src%253D%2522..%252Fmantra-ui%252Fresources%252Favatar-img-1.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-header">
+                    Badge on Icon
+                </div>
+                <div class="component__example-desc">
+                   Badge on icons can be particulary useful for displaying some sort of count related to the icon representing the UI element.
+                   Mantra UI provides three different sized badges for icons of large , medium and small size.
+                   The code snippent below demonstrates the usage. Icon size is changed using <code class="code-in-text">.icon-sm, .icon-md, .icon-lg</code>.
+                </div>
+                <div class="component__example-demo avatar__example-demo-container">
+                    <div class="badge-container icon-for-badge icon-lg">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="icon-badge">3</span>
+                    </div>
+                    <div class="badge-container icon-for-badge icon-md">
+                        <i class="fas fa-envelope"></i>
+                        <span class="icon-badge">3</span>
+                    </div>
+                    <div class="badge-container icon-for-badge icon-sm">
+                        <i class="fas fa-bell"></i>
+                        <span class="icon-badge">3</span>
+                    </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Use%2520the%2520badge-container%2520class%2520and%2520icon-for-badge%2520with%2520size%2520class%2520as%2520parent%2520.--%253E%250A%253Cdiv%2520class%253D%2522badge-container%2520icon-for-badge%2520icon-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%21--Put%2520the%2520icon-badge%2520class%2520to%2520style%2520and%2520position%2520the%2520badge--%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2520icon-for-badge%2520icon-md%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2520icon-for-badge%2520icon-sm%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+            </div>
             <!-- -- for element like 
             /* ListingCard.css */
 .ListingCard { }
