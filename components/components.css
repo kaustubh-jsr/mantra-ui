@@ -1,5 +1,6 @@
 @import './alert.css';
 @import './avatar.css';
+@import './badge.css';
 
 .btn-close {
     width: 2rem;
