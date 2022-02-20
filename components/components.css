@@ -4,6 +4,8 @@
 @import './button.css';
 @import './card.css';
 @import './image.css';
+@import './input.css';
+@import './typography.css';
 
 .btn-close {
     width: 2rem;
