@@ -132,6 +132,12 @@
     flex-wrap: wrap;
 }
 
+.input__example-demo-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
 .component__example-code{
     display: flex;
     justify-content: center;

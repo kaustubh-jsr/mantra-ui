@@ -45,7 +45,7 @@
                     <a class="sidenav-section__link" href="#button-section"><li>Button</li> </a>
                     <a class="sidenav-section__link" href="#card-section"><li>Cards</li> </a>
                     <a class="sidenav-section__link" href="#image-section"><li>Image</li> </a>
-                    <a class="sidenav-section__link" href=""><li>Toast</li> </a>
+                    <a class="sidenav-section__link" href="#input-section"><li>Input</li> </a>
                     <a class="sidenav-section__link" href=""><li>Modal</li> </a>
                 </ul>
             </section>
@@ -55,7 +55,7 @@
                     Utilites
                 </div>
                 <ul class="sidenav-section__links">
-                    <a  class="sidenav-section__link" href=""><li>Avatar </li></a>
+                    <a  class="sidenav-section__link" href="#typography-section"><li>Typography </li></a>
                     <a class="sidenav-section__link" href=""><li>Alert</li> </a>
                     <a class="sidenav-section__link" href=""><li>Badge</li> </a>
                     <a class="sidenav-section__link" href=""><li>Button</li> </a>
@@ -610,6 +610,121 @@
                 <div class="component__example-code">
                     <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Round%2520Image%2520--%253E%250A%253C%21--%2520To%2520the%2520image%2520container%2520class%2520give%2520equal%2520width%2520and%2520height%2520to%2520ensure%2520that%2520img%2520is%2520round--%253E%250A%253Cdiv%2520class%253D%2522round-img-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522.%252Fresources%252Fresp-img.jpg%2522%2520alt%253D%2522example-image%2522%2520loading%253D%2522lazy%2522%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <div class="spacer-8rem"></div>
+
+            <div class="component" id="input-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Input
+                </div>
+                <div class="component__header-desc">
+                    Input fields can have different color schemes for visually aiding
+                    in representing validation status of input field values.
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Input variations
+                </div>
+                <div class="component__example-desc">
+                    Add a <code class="code-in-text">.form-field</code> class, and then
+                    add or remove classes like <code class="code-in-text">.success-border, error-border</code> as needed.    
+                </div>
+                <div class="component__example-demo input__example-demo-container">                    
+                    <input class="form-field" type="text">
+                    <input class="form-field error-border" type="text">
+                    <input class="form-field success-border" type="text">
+                    <input class="form-field" type="text" placeholder="disabled input" disabled>
+                    <input class="form-field" type="text" placeholder="disabled input readonly" disabled readonly>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Add%2520the%2520form%2520field%2520class%2520and%2520any%2520other%2520supplementary%2520classes%2520to%2520use%2520the%2520styles--%253E%250A%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%253E%250A%253Cinput%2520class%253D%2522form-field%2520error-border%2522%2520type%253D%2522text%2522%253E%250A%253Cinput%2520class%253D%2522form-field%2520success-border%2522%2520type%253D%2522text%2522%253E%250A%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522disabled%2520input%2522%2520disabled%253E%250A%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522disabled%2520input%2520readonly%2522%2520disabled%2520readonly%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                  </iframe>
+                </div>
+            </div>
+            <div class="spacer-8rem"></div>
+            <div class="component" id="typography-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Typography
+                </div>
+                <div class="component__header-desc">
+                    Mantra UI provides different classes for headings, paragraphs and alignment
+                    Copy the code from snippets to get the effects demonstrated here.
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Headings
+                </div>
+                <div class="component__example-desc">
+                    Add any class from <code class="code-in-text">.h1 to .h6</code>, or directly use the default h1 to h6 tags
+                    to get the demonstrated headings.   
+                </div>
+                <div class="component__example-demo input__example-demo-container">                    
+                    <h1>h1. Mantra heading</h1>
+                    <h2>h2. Mantra heading</h2>
+                    <h3>h3. Mantra heading</h3>
+                    <h4>h4. Mantra heading</h4>
+                    <h5>h5. Mantra heading</h5>
+                    <h6>h6. Mantra heading</h6>
+                    
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Use%2520the%2520default%2520heading%2520tags%2520provided%2520by%2520HTML%2520as%2520shown%2520here%2520or%2520you%2520%250Acan%2520use%2520the%2520classes%2520demonstrated%2520in%2520the%2520next%2520snippet%2520for%2520same%2520effect--%253E%250A%253Ch1%253Eh1.%2520Mantra%2520heading%253C%252Fh1%253E%250A%253Ch2%253Eh2.%2520Mantra%2520heading%253C%252Fh2%253E%250A%253Ch3%253Eh3.%2520Mantra%2520heading%253C%252Fh3%253E%250A%253Ch4%253Eh4.%2520Mantra%2520heading%253C%252Fh4%253E%250A%253Ch5%253Eh5.%2520Mantra%2520heading%253C%252Fh5%253E%250A%253Ch6%253Eh6.%2520Mantra%2520heading%253C%252Fh6%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Use%2520the%2520classes%2520provided%2520hered%2520to%2520get%2520the%2520same%2520effect%2520without%2520semantics--%253E%250A%253Cp%2520class%253D%2522h1%2522%253Eh1.%2520Mantra%2520heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h2%2522%253Eh2.%2520Mantra%2520heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h3%2522%253Eh3.%2520Mantra%2520heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h4%2522%253Eh4.%2520Mantra%2520heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h5%2522%253Eh5.%2520Mantra%2520heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h6%2522%253Eh6.%2520Mantra%2520heading%253C%252Fp%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="component__example-header">
+                    Paragraphs
+                </div>
+                <div class="component__example-desc">
+                    Add a <code class="code-in-text">.p-lg, .p-md, .p-rg, .p-sm or .p-xs</code> class,
+                    to get the text to look like as shown.
+                </div>
+                <div class="component__example-demo input__example-demo-container">                    
+                    <p class="p-lg">p-large. This is a large paragraph text</p>
+                    <p class="p-md">p-medium. This is a medium paragraph text</p>
+                    <p class="p-rg">p-regular. This is a regular paragraph text</p>
+                    <p class="p-sm">p-small. This is a small paragraph text</p>
+                    <p class="p-xs">p-extra-small. This is a extra small paragraph text</p>
+                    
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Copy%2520the%2520below%2520classes%2520with%2520or%2520without%2520the%2520p%2520tag%2520to%2520get%2520the%2520same%2520effect.%2520--%253E%250A%253Cp%2520class%253D%2522p-lg%2522%253Ep-large.%2520This%2520is%2520a%2520large%2520paragraph%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p-md%2522%253Ep-medium.%2520This%2520is%2520a%2520medium%2520paragraph%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p-rg%2522%253Ep-regular.%2520This%2520is%2520a%2520regular%2520paragraph%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p-sm%2522%253Ep-small.%2520This%2520is%2520a%2520small%2520paragraph%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p-xs%2522%253Ep-extra-small.%2520This%2520is%2520a%2520extra%2520small%2520paragraph%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="component__example-header">
+                    Alignment
+                </div>
+                <div class="component__example-desc">
+                   Use <code class="code-in-text">.text-left, .text-center, .text-right</code> 
+                   to align the text accordingly. 
+                </div>
+                <div class="component__example-demo input__example-demo-container">                    
+                    <p class="p-lg text-left">Left Aligned</p>
+                    <p class="p-lg text-center">Center Aligned</p>
+                    <p class="p-lg text-right">Right aligned</p>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Align%2520text%2520by%2520adding%2520text-%255Bposition%255D%2520class%2520as%2520used%2520in%2520the%2520code%2520below.%2520--%253E%250A%253Cp%2520class%253D%2522p-lg%2520text-left%2522%253ELeft%2520Aligned%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p-lg%2520text-center%2522%253ECenter%2520Aligned%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p-lg%2520text-right%2522%253ERight%2520aligned%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>

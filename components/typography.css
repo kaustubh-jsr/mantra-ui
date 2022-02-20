@@ -1,0 +1,57 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 4px 0;
+}
+
+
+.h1, h1{
+    font-size: 4rem;
+}
+.h2, h2{
+    font-size: 3rem;
+}
+.h3, h3{
+    font-size: 2.75rem;
+}
+.h4, h4{
+    font-size: 2.5rem;
+}
+.h5, h5{
+    font-size: 2rem;
+}
+.h6, h6{
+    font-size: 1.5rem;
+}
+
+p , .p-rg{
+    font-size: 1.5rem;
+}
+
+.p-lg{
+    font-size: 2rem;
+}
+
+.p-md{
+    font-size: 1.75rem;
+}
+
+.p-sm{
+    font-size: 1.25rem;
+}
+
+.p-xs{
+    font-size: 1rem;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
