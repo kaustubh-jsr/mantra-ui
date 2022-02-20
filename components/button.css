@@ -1,0 +1,201 @@
+.btn{
+    line-height: 1.5;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 6px 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    transition: all ease-in-out 0.15s;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: var(--btn-color-primary);
+    border-color: var(--btn-color-primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--btn-color-primary-hover);
+    border-color: var(--btn-color-primary-hover);
+}
+
+.btn-secondary{
+    color: #fff;
+    background-color: var(--btn-color-secondary);
+    border-color: var(--btn-color-secondary);
+}
+
+.btn-secondary:hover{
+    background-color: var(--btn-color-secondary-hover);
+    border-color: var(--btn-color-secondary-hover);
+}
+
+.btn-success{
+    color: #fff;
+    background-color: var(--btn-color-success);
+    border-color: var(--btn-color-success);
+}
+
+.btn-success:hover{
+    background-color: var(--btn-color-success-hover);
+    border-color: var(--btn-color-success-hover);
+}
+
+.btn-danger{
+    color: #fff;
+    background-color: var(--btn-color-danger);
+    border-color: var(--btn-color-danger);
+}
+
+.btn-danger:hover{
+    background-color: var(--btn-color-danger-hover);
+    border-color: var(--btn-color-danger-hover);
+}
+
+.btn-warning{
+    color: #000;
+    background-color: var(--btn-color-warning);
+    border-color: var(--btn-color-warning);
+}
+
+.btn-warning:hover{
+    background-color: var(--btn-color-warning-hover);
+    border-color: var(--btn-color-warning-hover);
+}
+
+.btn-info{
+    color: #000;
+    background-color: var(--btn-color-info);
+    border-color: var(--btn-color-info);
+}
+
+.btn-info:hover{
+    background-color: var(--btn-color-info-hover);
+    border-color: var(--btn-color-info-hover);
+}
+
+.btn-link{
+    color: var(--btn-color-primary);
+    background:transparent;
+    text-decoration: underline;
+}
+
+.btn-link:hover{
+    color: var(--btn-color-primary-hover);
+}
+
+/* Outline buttons */
+
+.btn-outline-primary{
+    color: var(--btn-color-primary);
+    border-color: var(--btn-color-primary);
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--btn-color-primary);
+    color: white;
+    border-color: var(--btn-color-primary);
+}
+
+.btn-outline-secondary{
+    color: var(--btn-color-secondary);
+    border-color: var(--btn-color-secondary);
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--btn-color-secondary);
+    color: white;
+    border-color: var(--btn-color-secondary);
+}
+
+.btn-outline-success{
+    color: var(--btn-color-success);
+    border-color: var(--btn-color-success);
+}
+
+.btn-outline-success:hover{
+    background-color: var(--btn-color-success);
+    color: white;
+    border-color: var(--btn-color-success);
+}
+
+.btn-outline-danger{
+    color: var(--btn-color-danger);
+    border-color: var(--btn-color-danger);
+}
+
+.btn-outline-danger:hover{
+    background-color: var(--btn-color-danger);
+    color: white;
+    border-color: var(--btn-color-danger);
+}
+
+.btn-outline-warning{
+    color: var(--btn-color-warning);
+    border-color: var(--btn-color-warning);
+}
+
+.btn-outline-warning:hover{
+    background-color: var(--btn-color-warning);
+    color: black;
+    border-color: var(--btn-color-warning);
+}
+
+.btn-outline-info{
+    color: var(--btn-color-info);
+    border-color: var(--btn-color-info);
+}
+
+.btn-outline-info:hover{
+    background-color: var(--btn-color-info);
+    color: black;
+    border-color: var(--btn-color-info);
+}
+
+.btn-fab{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+
+.btn-fab-primary{
+    background-color: var(--btn-color-primary);
+}
+.btn-fab-secondary{
+    background-color: var(--btn-color-secondary);
+}
+.btn-fab-success{
+    background-color: var(--btn-color-success);
+}
+.btn-fab-danger{
+    background-color: var(--btn-color-danger);
+}
+.btn-fab-warning{
+    background-color: var(--btn-color-warning);
+}
+.btn-fab-info{
+    background-color: var(--btn-color-info);
+}
+
+.btn-fab-lg{
+    width: 5rem;
+    height: 5rem;
+}
+
+.btn-fab-md{
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.btn:disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}

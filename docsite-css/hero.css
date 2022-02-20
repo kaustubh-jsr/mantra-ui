@@ -9,6 +9,14 @@
     background-image: linear-gradient(126deg, #007ebb,#009771);
     /* background-image: linear-gradient( 130deg, var(--grd-color-1) , var(--grd-color-2) ); */
     background-image: linear-gradient( 130deg, var(--color-1) , var(--color-2),var(--color-3), var(--color-4) 85%);
+    background-image:#99ffa5;background-image:  
+radial-gradient(at 25% 40%, hsla(137,94%,70%,1) 0, transparent 47%),  
+radial-gradient(at 40% 71%, hsla(28,91%,72%,1) 0, transparent 42%),  
+radial-gradient(at 34% 28%, hsla(228,81%,70%,1) 0, transparent 54%),  
+radial-gradient(at 15% 55%, hsla(313,66%,77%,1) 0, transparent 45%),  
+radial-gradient(at 18% 93%, hsla(96,93%,63%,1) 0, transparent 43%),  
+radial-gradient(at 74% 65%, hsla(245,65%,60%,1) 0, transparent 55%),  
+radial-gradient(at 9% 8%, hsla(192,92%,79%,1) 0, transparent 51%);
     background-size: 200%;
     animation: bg-animation 10s infinite alternate;
     /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% ); */

@@ -42,9 +42,9 @@
                     <a class="sidenav-section__link" href="#alert-section"><li>Alert</li> </a>
                     <a  class="sidenav-section__link" href="#avatar-section"><li>Avatar </li></a>
                     <a class="sidenav-section__link" href="#badge-section"><li>Badge</li> </a>
-                    <a class="sidenav-section__link" href=""><li>Button</li> </a>
-                    <a class="sidenav-section__link" href=""><li>Cards</li> </a>
-                    <a class="sidenav-section__link" href=""><li>Navigation</li> </a>
+                    <a class="sidenav-section__link" href="#button-section"><li>Button</li> </a>
+                    <a class="sidenav-section__link" href="#card-section"><li>Cards</li> </a>
+                    <a class="sidenav-section__link" href="#image-section"><li>Image</li> </a>
                     <a class="sidenav-section__link" href=""><li>Toast</li> </a>
                     <a class="sidenav-section__link" href=""><li>Modal</li> </a>
                 </ul>
@@ -65,6 +65,10 @@
 
 
         <section class="main-section">
+            <a href="#"
+            class="btn btn-fab btn-fab-primary btn-fab-md up-arrow">
+                <i class="fas fa-arrow-up"></i>
+            </a>
             <div class="component" id="alert-section">
                 <!-- There is just one header and header-description per component -->
                 <div class="component__header">
@@ -309,6 +313,305 @@
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Use%2520the%2520badge-container%2520class%2520and%2520icon-for-badge%2520with%2520size%2520class%2520as%2520parent%2520.--%253E%250A%253Cdiv%2520class%253D%2522badge-container%2520icon-for-badge%2520icon-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%21--Put%2520the%2520icon-badge%2520class%2520to%2520style%2520and%2520position%2520the%2520badge--%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2520icon-for-badge%2520icon-md%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2520icon-for-badge%2520icon-sm%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                   </iframe>
+                </div>
+            </div>
+            <div class="spacer-8rem"></div>
+            <!-- Button Component -->
+            <div class="component" id="button-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Button
+                </div>
+                <div class="component__header-desc">
+                    Buttons are generally used for call to action. Mantra UI provides various buttons
+                    for different states and uses. Have a look at the demo and code below
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Solid Buttons
+                </div>
+                <div class="component__example-desc">
+                    Solid buttons have a solid background color, take a look at what types are available and
+                    choose according to your needs.
+                    Copy and use the demo code below to get up and running with primary buttons.
+                </div>
+                <div class="component__example-demo avatar__example-demo-container">
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-info">Info</button>
+                    <a href="#" class="btn btn-link">Link</a>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Use%2520the%2520.btn%2520class%2520and%2520add%2520a%2520supplementary%2520class%2520as%2520shown%2520to%2520add%2520color%2520.--%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fa%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                <div class="component__example-header">
+                    Outline Buttons
+                </div>
+                <div class="component__example-desc">
+                    Outline buttons follow a similar color scheme as the solid buttons, with background color being white,
+                    and text and border colors following from classes given. 
+                </div>
+                <div class="component__example-demo avatar__example-demo-container">
+                    <button class="btn btn-outline-primary">Primary</button>
+                    <button class="btn btn-outline-secondary">Secondary</button>
+                    <button class="btn btn-outline-success">Success</button>
+                    <button class="btn btn-outline-danger">Danger</button>
+                    <button class="btn btn-outline-warning">Warning</button>
+                    <button class="btn btn-outline-info">Info</button>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Use%2520the%2520.btn%2520class%2520and%2520add%2520a%2520.btn-outline-%257Bsupplement%2520here%257D%2520supplementary%2520class%2520as%2520shown%2520to%2520add%2520color%2520.--%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-info%2522%253EInfo%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-header">
+                    Disabled Buttons
+                </div>
+                <div class="component__example-desc">
+                    To make any button disabled, add the disabled attribute to the button element,as demonstrated below.
+                </div>
+                <div class="component__example-demo avatar__example-demo-container">
+                    <button class="btn btn-primary" disabled>Primary</button>
+                    <button class="btn btn-secondary" disabled>Secondary</button>
+                    <button class="btn btn-success" disabled>Success</button>
+                    <button class="btn btn-danger" disabled>Danger</button>
+                    <button class="btn btn-warning" disabled>Warning</button>
+                    <button class="btn btn-info" disabled>Info</button>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Add%2520the%2520disabled%2520attribute%2520to%2520the%2520button%2520element%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%2520disabled%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%2520disabled%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%2520disabled%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%2520disabled%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%2520disabled%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%2520disabled%253EInfo%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-header">
+                    Floating Action Buttons
+                </div>
+                <div class="component__example-desc">
+                    Floating action buttons are available in two sizes large and medium,
+                    which can be accessed by adding <code class="code-in-text">.btn-fab-lg</code> and <code class="code-in-text">.btn-fab-md</code>
+                    classes respectively
+                </div>
+                <div class="component__example-demo avatar__example-demo-container">
+                    <button class="btn btn-fab btn-fab-primary btn-fab-lg">
+                        <i class="fas fa-user-alt"></i>
+                    </button>
+                    <button class="btn btn-fab btn-fab-secondary btn-fab-lg">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                    <button class="btn btn-fab btn-fab-success btn-fab-lg">
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
+                    <button class="btn btn-fab btn-fab-warning btn-fab-lg">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+
+                    <button class="btn btn-fab btn-fab-primary btn-fab-md">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                    <button class="btn btn-fab btn-fab-danger btn-fab-md">
+                        <i class="fas fa-user-alt"></i>
+                    </button>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Use%2520the%2520.btn-fab%2520class%2520to%2520make%2520the%2520button%2520rounded%2520and%2520lg%252Cmd%2520supplement%2520classes%2520as%2520shown%252C%2520%250Ato%2520make%2520the%2520buttons%2520larger%2520or%2520medium%2520sized.--%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-fab%2520btn-fab-primary%2520btn-fab-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-fab%2520btn-fab-secondary%2520btn-fab-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-align-justify%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-fab%2520btn-fab-success%2520btn-fab-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-down%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-fab%2520btn-fab-warning%2520btn-fab-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-fab%2520btn-fab-primary%2520btn-fab-md%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-align-justify%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-fab%2520btn-fab-danger%2520btn-fab-md%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                  </iframe>
+                </div>
+            </div>
+            <div class="spacer-8rem"></div>
+
+            <!-- Card Component -->
+            <div class="component" id="card-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Card
+                </div>
+                <div class="component__header-desc">
+                    Mantra UI provides the card component in two variants vertical and horizontal,
+                    each variant can use badges, card dismiss button, or card overlay as demonstrated below.
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Vertical Card
+                </div>
+                <div class="component__example-desc">
+                    Copy the demo code below, and edit it to get up and running with a vertical card component for your project.
+                </div>
+                <div class="component__example-demo card__example-demo-container">
+                    <div class="card">
+                        <div class="card-basic--image">
+                            <img class="card-basic--img-tag" src="https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bf81a90e-adbb-485e-bfcd-63fb4619a6a7.jpg" alt="sample card image">
+                        </div>
+                        <div class="card--details">
+                            <header class="card--header">
+                                <h1 class="card--heading">Strawberries</h1>
+                                <p class="card--subheading">1 kg container</p>
+                                <p class="card--heading"> <span class="strikethrough grey-text">₹500</span> ₹400 <span class="discount-text primary-text">(Save 20%)</span></p>
+                            </header>
+                            
+                            <div class="card--links">
+                                <button class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                                <button class="btn btn-outline-secondary">Add to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-basic--image">
+                            <img class="card-basic--img-tag" src="https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bf81a90e-adbb-485e-bfcd-63fb4619a6a7.jpg" alt="sample card image">
+                        </div>
+                        <div class="card--badge">
+                            New
+                        </div>
+                        <div class="card--dismiss">
+                            <button class="btn-close"></button>
+                        </div>
+                        <div class="card--details">
+                            <header class="card--header">
+                                <h1 class="card--heading">Strawberries </h1>
+                                <p class="card--subheading">1 kg container</p>
+                                <p class="card--heading"> <span class="strikethrough grey-text">₹500</span> ₹400 <span class="discount-text primary-text">(Save 20%)</span></p>
+                            </header>
+                            
+                            <div class="card--links">
+                                <button class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                                <button class="btn btn-outline-secondary">Add to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Basic%2520vertical%2520card%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-basic--image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-basic--img-tag%2522%2520src%253D%2522https%253A%252F%252Fd2lnr5mha7bycj.cloudfront.net%252Fproduct-image%252Ffile%252Flarge_bf81a90e-adbb-485e-bfcd-63fb4619a6a7.jpg%2522%2520alt%253D%2522sample%2520card%2520image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card--details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cheader%2520class%253D%2522card--header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card--heading%2522%253EStrawberries%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card--subheading%2522%253E1%2520kg%2520container%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card--heading%2522%253E%2520%253Cspan%2520class%253D%2522strikethrough%2520grey-text%2522%253E%25E2%2582%25B9500%253C%252Fspan%253E%2520%25E2%2582%25B9400%2520%253Cspan%2520class%253D%2522discount-text%2520primary-text%2522%253E%28Save%252020%2525%29%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fheader%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card--links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EAdd%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Vertical%2520card%2520with%2520badge%2520and%2520dismiss%2520button--%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-basic--image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-basic--img-tag%2522%2520src%253D%2522https%253A%252F%252Fd2lnr5mha7bycj.cloudfront.net%252Fproduct-image%252Ffile%252Flarge_bf81a90e-adbb-485e-bfcd-63fb4619a6a7.jpg%2522%2520alt%253D%2522sample%2520card%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card--badge%2522%253E%250A%2520%2520%2520%2520%2520%2520New%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card--dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card--details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cheader%2520class%253D%2522card--header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card--heading%2522%253EStrawberries%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card--subheading%2522%253E1%2520kg%2520container%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card--heading%2522%253E%2520%253Cspan%2520class%253D%2522strikethrough%2520grey-text%2522%253E%25E2%2582%25B9500%253C%252Fspan%253E%2520%25E2%2582%25B9400%2520%253Cspan%2520class%253D%2522discount-text%2520primary-text%2522%253E%28Save%252020%2525%29%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fheader%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card--links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EAdd%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-header">
+                    Horizontal Card and Card with overlay
+                </div>
+                <div class="component__example-desc">
+                    Cards an have an overlay which disables any access to the contents and buttons in the card.
+                </div>
+                <div class="component__example-demo card__example-demo-container">
+                    <div class="card card--horizontal">
+                        <div class="card-basic--image card--horizontal-image">
+                            <img class="card-basic--img-tag" src="https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bf81a90e-adbb-485e-bfcd-63fb4619a6a7.jpg" alt="sample card image">
+                        </div>
+                        <div class="card--badge">
+                            New
+                        </div>
+                        <div class="card--details card--horizontal-details">
+                            <header class="card--header">
+                                <h1 class="card--heading">Strawberries </h1>
+                                <p class="card--subheading">1 kg container</p>
+                                <p class="card--heading"> <span class="strikethrough grey-text">₹500</span> ₹400 <span class="discount-text primary-text">(Save 20%)</span></p>
+                            </header>
+                            
+                            <div class="card--links">
+                                <button class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                                <button class="btn btn-outline-secondary">Add to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-overlay">
+                            <div class="overlay-text">Out of Stock</div>
+                        </div>
+                        
+                        <div class="card-basic--image">
+                            <img class="card-basic--img-tag" src="https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bf81a90e-adbb-485e-bfcd-63fb4619a6a7.jpg" alt="sample card image">
+                        </div>
+                        <div class="card--details">
+                            <header class="card--header">
+                                <h1 class="card--heading">Strawberries</h1>
+                                <p class="card--subheading">1 kg container</p>
+                                <p class="card--heading"> <span class="strikethrough grey-text">₹500</span> ₹400 <span class="discount-text primary-text">(Save 20%)</span></p>
+                            </header>
+                            
+                            <div class="card--links">
+                                <button class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                                <button class="btn btn-outline-secondary">Add to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Horizontal%2520Card%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card--horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-basic--image%2520card--horizontal-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-basic--img-tag%2522%2520src%253D%2522https%253A%252F%252Fd2lnr5mha7bycj.cloudfront.net%252Fproduct-image%252Ffile%252Flarge_bf81a90e-adbb-485e-bfcd-63fb4619a6a7.jpg%2522%2520alt%253D%2522sample%2520card%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card--badge%2522%253E%250A%2520%2520%2520%2520%2520%2520New%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card--details%2520card--horizontal-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cheader%2520class%253D%2522card--header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card--heading%2522%253EStrawberries%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card--subheading%2522%253E1%2520kg%2520container%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card--heading%2522%253E%2520%253Cspan%2520class%253D%2522strikethrough%2520grey-text%2522%253E%25E2%2582%25B9500%253C%252Fspan%253E%2520%25E2%2582%25B9400%2520%253Cspan%2520class%253D%2522discount-text%2520primary-text%2522%253E%28Save%252020%2525%29%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fheader%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card--links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EAdd%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Vertical%2520Card%2520with%2520text%2520overlay%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253EOut%2520of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-basic--image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-basic--img-tag%2522%2520src%253D%2522https%253A%252F%252Fd2lnr5mha7bycj.cloudfront.net%252Fproduct-image%252Ffile%252Flarge_bf81a90e-adbb-485e-bfcd-63fb4619a6a7.jpg%2522%2520alt%253D%2522sample%2520card%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card--details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cheader%2520class%253D%2522card--header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card--heading%2522%253EStrawberries%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card--subheading%2522%253E1%2520kg%2520container%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card--heading%2522%253E%2520%253Cspan%2520class%253D%2522strikethrough%2520grey-text%2522%253E%25E2%2582%25B9500%253C%252Fspan%253E%2520%25E2%2582%25B9400%2520%253Cspan%2520class%253D%2522discount-text%2520primary-text%2522%253E%28Save%252020%2525%29%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fheader%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card--links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EAdd%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <div class="spacer-8rem"></div>
+
+            <div class="component" id="image-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Image
+                </div>
+                <div class="component__header-desc">
+                    Mantra UI provides the card component in two variants vertical and horizontal,
+                    each variant can use badges, card dismiss button, or card overlay as demonstrated below.
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Responsive Image
+                </div>
+                <div class="component__example-desc">
+                    Image can be made responsive, by adding the <code class="code-in-text">.img-responsive</code>
+                     class which makes the image take up 100% of the parent container width, and the height adjusts to maintain
+                     the aspect ratio.
+                </div>
+                <div class="component__example-demo image__example-demo-container">                    
+                    <img class="img-responsive" src="./resources/resp-img.jpg" alt="example-image" loading="lazy">
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Responsive%2520Image%2520--%253E%250A%253C%21--%2520To%2520the%2520image%2520container%2520class%2520give%2520a%2520width%2520and%2520the%2520child%2520img%2520will%2520take%2520up%2520100%2525%2520width--%253E%250A%253Cdiv%2520class%253D%2522img-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522.%252Fresources%252Fresp-img.jpg%2522%2520alt%253D%2522example-image%2522%2520loading%253D%2522lazy%2522%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                <div class="component__example-header">
+                    Round Image
+                </div>
+                <div class="component__example-desc">
+                    A round image can be obtained by adding img-responsive and img-round classes to an img tag,
+                    this image takes width and height according to the parent container.
+                    Ensure that the parent image container has same height and width.
+                </div>
+                <div class="component__example-demo card__example-demo-container">
+                        <div class="round-img-container">             
+                            <img class="img-responsive img-round" src="./resources/resp-img.jpg" alt="example-image" loading="lazy">
+                        </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--Round%2520Image%2520--%253E%250A%253C%21--%2520To%2520the%2520image%2520container%2520class%2520give%2520equal%2520width%2520and%2520height%2520to%2520ensure%2520that%2520img%2520is%2520round--%253E%250A%253Cdiv%2520class%253D%2522round-img-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522.%252Fresources%252Fresp-img.jpg%2522%2520alt%253D%2522example-image%2522%2520loading%253D%2522lazy%2522%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
             </div>
             <!-- -- for element like 
