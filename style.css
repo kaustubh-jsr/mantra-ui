@@ -78,7 +78,25 @@
     --alert-color-info-bg : #cff4fc;
     --alert-color-info-border : #b6effb;
     --alert-color-info-link : #04414d;
+
+    /* Colors for buttons */
+    --btn-color-primary:#0d6efd;
+    --btn-color-primary-hover:#0857cc;
     
+    --btn-color-secondary:#6c757d;
+    --btn-color-secondary-hover:#5b6268;
+    
+    --btn-color-success:#0ab867;
+    --btn-color-success-hover:#198754;
+
+    --btn-color-danger:#dc3545;
+    --btn-color-danger-hover:#be2e3c;
+
+    --btn-color-warning:#ffc107;
+    --btn-color-warning-hover:#ffcd37;
+    
+    --btn-color-info:#0dcaf0;
+    --btn-color-info-hover:#0ab0d1;
 }
 html{
     font-size:62.5%;
