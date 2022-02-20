@@ -129,7 +129,7 @@
 
 .btn-outline-danger:hover{
     background-color: var(--btn-color-danger);
-    color: white;
+    color: var(--text-color-white);
     border-color: var(--btn-color-danger);
 }
 
@@ -140,7 +140,7 @@
 
 .btn-outline-warning:hover{
     background-color: var(--btn-color-warning);
-    color: black;
+    color: var(--text-color-black);
     border-color: var(--btn-color-warning);
 }
 
@@ -151,7 +151,7 @@
 
 .btn-outline-info:hover{
     background-color: var(--btn-color-info);
-    color: black;
+    color: var(--text-color-black);
     border-color: var(--btn-color-info);
 }
 
@@ -161,7 +161,7 @@
     align-items: center;
     font-size: 2rem;
     border-radius: 50%;
-    color: white;
+    color: var(--text-color-white);
     box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
 }
 
