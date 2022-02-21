@@ -1,0 +1,89 @@
+/* ---------------------------------Snackbar skelton--------------------- */
+.snackbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: max-content;
+    line-height: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 4px 8px 1rem var(--snackbar-box-shadow-color);
+}
+
+.snackbar-text{
+    font-size: 1.5rem;
+}
+.snackbar-stacked{
+    display: flex;
+    flex-direction: column;
+}
+.snackbar-stacked>.snackbar-action{
+    margin-top: 2rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.snackbar-btn{
+    border-style: none;
+    font-weight: 700;
+    height: 3rem;
+    padding: 0px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--snackbar-btn-color);
+    text-transform: uppercase;
+    transition: all 50ms linear;
+}
+.snackbar-btn:hover{
+    background-color: var(--snackbar-btn-bg-color-hover);
+    color: var(--snackbar-btn-color);
+}
+.snackbar-btn:active{
+    background-color: var(--snackbar-btn-bg-color-active);
+    color: var(--snackbar-btn-color);
+}
+
+.snackbar-icon-btn{
+    border-style: none;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--snackbar-font-color);
+    cursor: pointer;
+}
+
+.snackbar-icon-btn:hover{
+    background-color: var(--snackbar-icon-btn-hover);
+    
+}
+.snackbar-icon-btn:active{
+    background-color: var(--snackbar-icon-btn-active);
+}
+
+.demo-snackbar{
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    bottom: 3.2rem;
+}
+.demo-snackbar.show{
+    visibility: visible;
+    animation: fadein 0.5s;
+}
+
+.leading{
+    left: 1rem;
+}
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+
+/* ---------------------------------Snackbar skin--------------------- */
+
+.snackbar{
+    background-color: var(--snackbar-bg-color);
+    color: var(--snackbar-font-color);
+}
