@@ -97,6 +97,16 @@
     
     --btn-color-info:#0dcaf0;
     --btn-color-info-hover:#0ab0d1;
+
+    /* Colors for snackbar */
+    --snackbar-bg-color:#333;
+    --snackbar-font-color:white;
+    --snackbar-btn-color: #bb86fc;
+    --snackbar-btn-bg-color-hover: #493861;
+    --snackbar-btn-bg-color-active: #382b4b;
+    --snackbar-icon-btn-hover: hsla(0,0%,100%,.1);
+    --snackbar-icon-btn-active: hsla(0,0%,100%,.3);
+
 }
 html{
     font-size:62.5%;

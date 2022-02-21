@@ -6,6 +6,7 @@
 @import './image.css';
 @import './input.css';
 @import './typography.css';
+@import './snackbar.css';
 
 .btn-close {
     width: 2rem;

@@ -138,6 +138,14 @@
     row-gap: 2rem;
 }
 
+.snackbar__example-demo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 1rem 5rem;
+}
+
 .component__example-code{
     display: flex;
     justify-content: center;
