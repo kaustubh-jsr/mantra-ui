@@ -106,6 +106,7 @@
     --snackbar-btn-bg-color-active: #382b4b;
     --snackbar-icon-btn-hover: hsla(0,0%,100%,.1);
     --snackbar-icon-btn-active: hsla(0,0%,100%,.3);
+    --snackbar-box-shadow-color: #747679;
 
 }
 html{

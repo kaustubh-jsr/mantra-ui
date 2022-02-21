@@ -7,11 +7,16 @@ let closeLeadingSnackbar = document.getElementById("demo-leading-snackbar-close"
 
 toggleBaselineBtn.addEventListener("click",()=>{
     baselineSnackbar.classList.toggle("show");
-    setTimeout(function(){ leadingSnackbar.classList.remove("show");}, 3000);
+    setTimeout(
+        () => { 
+            leadingSnackbar.classList.remove("show");
+        }, 3000);
 })
 toggleLeadingBtn.addEventListener("click",()=>{
     leadingSnackbar.classList.toggle("show");
-    setTimeout(function(){ baselineSnackbar.classList.remove("show");}, 3000);
+    setTimeout(() => { 
+        baselineSnackbar.classList.remove("show");
+    }, 3000);
 })
 
 

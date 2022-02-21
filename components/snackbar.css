@@ -7,7 +7,7 @@
     width: max-content;
     line-height: 1.5rem;
     border-radius: 6px;
-    box-shadow: 4px 8px 1rem #747679;
+    box-shadow: 4px 8px 1rem var(--snackbar-box-shadow-color);
 }
 
 .snackbar-text{
