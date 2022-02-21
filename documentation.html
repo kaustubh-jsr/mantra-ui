@@ -56,9 +56,8 @@
                 </div>
                 <ul class="sidenav-section__links">
                     <a  class="sidenav-section__link" href="#typography-section"><li>Typography </li></a>
-                    <a class="sidenav-section__link" href=""><li>Alert</li> </a>
-                    <a class="sidenav-section__link" href=""><li>Badge</li> </a>
-                    <a class="sidenav-section__link" href=""><li>Button</li> </a>
+                    <a  class="sidenav-section__link" href="#grid-section"><li>Grid </li></a>
+                    <a class="sidenav-section__link" href=""><li>Pagination</li> </a>
                 </ul>
             </section>
         </aside>
@@ -645,7 +644,6 @@
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=775&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Add%2520the%2520form%2520field%2520class%2520and%2520any%2520other%2520supplementary%2520classes%2520to%2520use%2520the%2520styles--%253E%250A%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%253E%250A%253Cinput%2520class%253D%2522form-field%2520error-border%2522%2520type%253D%2522text%2522%253E%250A%253Cinput%2520class%253D%2522form-field%2520success-border%2522%2520type%253D%2522text%2522%253E%250A%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522disabled%2520input%2522%2520disabled%253E%250A%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522disabled%2520input%2520readonly%2522%2520disabled%2520readonly%253E"
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>
-                  </iframe>
                 </div>
             </div>
             <div class="spacer-8rem"></div>
@@ -810,6 +808,93 @@
                 
             </div>
             <div class="spacer-8rem"></div>
+
+            <div class="component" id="grid-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Grid
+                </div>
+                <div class="component__header-desc">
+                    Grid layouts are built using the inbuilt CSS grid, and can be used to quickly set up
+                    views using a parent and children containers.
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Side by side grid (50:50)
+                </div>
+                <div class="component__example-desc">
+                    Add a <code class="code-in-text">.grid-50-50</code> class to the parent div
+                    and add two child containers to get the expected result    
+                </div>
+                <div class="component__example-demo input__example-demo-container">                    
+                    <div class="grid-50-50">
+                        <div>
+                            <img loading="lazy" class="img-responsive" src="./resources/resp-img.jpg" alt="sample grid">
+                        </div>
+                        <div class="flex-col-center">
+                            <h6>This text container</h6>
+                            <h6>takes 50% of parent</h6>
+                            <button class="btn btn-outline-secondary">Test</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=786&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-50-50%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520loading%253D%2522lazy%2522%2520class%253D%2522img-responsive%2522%2520src%253D%2522.%252Fresources%252Fresp-img.jpg%2522%2520alt%253D%2522sample%2520grid%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-col-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%253EThis%2520text%2520container%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%253Etakes%252050%2525%2520of%2520parent%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ETest%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                <div class="component__example-header">
+                    Side by side grid (30:70)
+                </div>
+                <div class="component__example-desc">
+                    Add a <code class="code-in-text">.grid-30-70</code> class to the parent div
+                    and add two child containers to get the expected result    
+                </div>
+                <div class="component__example-demo input__example-demo-container">                    
+                    <div class="grid-30-70">
+                        <div>
+                            <img loading="lazy" class="img-responsive" src="./resources/resp-img.jpg" alt="sample grid">
+                        </div>
+                        <div class="flex-col-center">
+                            <h6>This text container</h6>
+                            <h6>takes 70% of parent</h6>
+                            <button class="btn btn-outline-secondary">Test</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=786&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-30-70%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520loading%253D%2522lazy%2522%2520class%253D%2522img-responsive%2522%2520src%253D%2522.%252Fresources%252Fresp-img.jpg%2522%2520alt%253D%2522sample%2520grid%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-col-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%253EThis%2520text%2520container%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%253Etakes%252070%2525%2520of%2520parent%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ETest%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="component__example-header">
+                    Side by side grid (70:30)
+                </div>
+                <div class="component__example-desc">
+                    Add a <code class="code-in-text">.grid-70-30</code> class to the parent div
+                    and add two child containers to get the expected result    
+                </div>
+                <div class="component__example-demo input__example-demo-container">                    
+                    <div class="grid-70-30">
+                        <div>
+                            <img loading="lazy" class="img-responsive" src="./resources/resp-img.jpg" alt="sample grid">
+                        </div>
+                        <div class="flex-col-center">
+                            <h6>This text container</h6>
+                            <h6>takes 30% of parent</h6>
+                            <button class="btn btn-outline-secondary">Test</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=786&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-70-30%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520loading%253D%2522lazy%2522%2520class%253D%2522img-responsive%2522%2520src%253D%2522.%252Fresources%252Fresp-img.jpg%2522%2520alt%253D%2522sample%2520grid%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-col-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%253EThis%2520text%2520container%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%253Etakes%252030%2525%2520of%2520parent%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ETest%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
             <!-- -- for element like 
             /* ListingCard.css */
 .ListingCard { }
