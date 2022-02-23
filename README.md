@@ -32,6 +32,15 @@ following  ```<link>``` in the ```<head>``` tag of your ```index.html``` file.
 ```html
   <link rel="stylesheet" href="https://mantra-ui.netlify.app/style.css">
 ```
+## Screenshots
+### Homepage Screenshot 1
+![App Screenshot](https://i.postimg.cc/659ww95K/mantra-homepage.jpg)
+### Homepage Screenshot 2
+![App Screenshot](https://i.postimg.cc/j5dQtw9N/mantra-homepage2.jpg)
+### Documentation Page Sample 1
+![App Screenshot](https://i.postimg.cc/7LV7bPrk/doc-page-1.jpg)
+### Documentation Page Sample 2
+![App Screenshot](https://i.postimg.cc/hPddT1RM/doc-page-2.jpg)
 
 ## Components Featured
 - [Alert](https://mantra-ui.netlify.app/documentation.html#alert-section)
