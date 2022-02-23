@@ -33,3 +33,15 @@ following  ```<link>``` in the ```<head>``` tag of your ```index.html``` file.
   <link rel="stylesheet" href="https://mantra-ui.netlify.app/style.css">
 ```
 
+## Components Featured
+- [Alert](https://mantra-ui.netlify.app/documentation.html#alert-section)
+- [Avatar](https://mantra-ui.netlify.app/documentation.html#avatar-section)
+- [Badge](https://mantra-ui.netlify.app/documentation.html#badge-section)
+- [Button](https://mantra-ui.netlify.app/documentation.html#button-section)
+- [Cards](https://mantra-ui.netlify.app/documentation.html#card-section)
+- [Image](https://mantra-ui.netlify.app/documentation.html#image-section)
+- [Input](https://mantra-ui.netlify.app/documentation.html#input-section)
+- [Snackbar](https://mantra-ui.netlify.app/documentation.html#snackbar-section)
+- [Typography](https://mantra-ui.netlify.app/documentation.html#typography-section)
+- [Grid](https://mantra-ui.netlify.app/documentation.html#grid-section)
+
