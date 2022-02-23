@@ -28,6 +28,13 @@ img{
 .primary-nav-main-links{
     margin-left: 3.2rem;
 }
+.primary-nav-main-links a{
+    transition: color 100ms linear;
+}
+.primary-nav-main-links a:hover{
+    color: var(--color-1);
+}
+
 .primary-nav-side-links{
     margin-left: auto;
     margin-right: 3.2rem;
