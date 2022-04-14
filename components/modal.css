@@ -1,6 +1,6 @@
 @import "https://mantra-ui.netlify.app/style.css";
 
-#show-modal-btn {
+.show-modal-btn {
   width: max-content;
 }
 
