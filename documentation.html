@@ -47,6 +47,8 @@
                     <a class="sidenav-section__link" href="#card-section"><li>Cards</li> </a>
                     <a class="sidenav-section__link" href="#image-section"><li>Image</li> </a>
                     <a class="sidenav-section__link" href="#input-section"><li>Input</li> </a>
+                    <a class="sidenav-section__link" href="#navbar-section"><li>Navbar</li> </a>
+                    <a class="sidenav-section__link" href="#modal-section"><li>Modal</li> </a>
                     <a class="sidenav-section__link" href="#snackbar-section"><li>Snackbar</li> </a>
                 </ul>
             </section>
@@ -648,6 +650,111 @@
                 </div>
             </div>
             <div class="spacer-8rem"></div>
+
+            <div class="component" id="navbar-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Navbar
+                </div>
+                <div class="component__header-desc">
+                    Navigation bar as the name suggests aids in user navigation to 
+                    important parts of the application or website, generally located at the topmost
+                    part of the website or app.
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Navbar example
+                </div>
+                <div class="component__example-desc">
+                    Copy the following HTML snippet and edit the navbar
+                    content according to use case.
+                </div>
+                <div class="component__example-demo input__example-demo-container">
+                    <nav>
+                        <div class="img-container">
+                          <img
+                            src="https://mantra-ui.netlify.app/logo_no-padding.jpg"
+                            alt="mantra-logo"
+                          />
+                        </div>
+                        <ul class="nav-links primary-nav-main-links flex">
+                          <li>
+                            <a href="#">Home</a>
+                          </li>
+                          <li>
+                            <a href="#">Products</a>
+                          </li>
+                        </ul>
+                        <ul class="nav-links primary-nav-side-links flex">
+                          <li>
+                            <a
+                              href="#"
+                              class="fab fa-twitter"
+                              ></a
+                            >
+                          </li>
+                          <li>
+                            <a href="#" class="fab fa-github"
+                              ></a
+                            >
+                          </li>
+                        </ul>
+                      </nav>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=786&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cnav%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fmantra-ui.netlify.app%252Flogo_no-padding.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522mantra-logo%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cul%2520class%253D%2522nav-links%2520primary-nav-main-links%2520flex%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EProducts%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%2520class%253D%2522nav-links%2520primary-nav-side-links%2520flex%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522%2523%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fab%2520fa-twitter%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522fab%2520fa-github%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <div class="spacer-8rem"></div>
+
+            <div class="component" id="modal-section">
+                <!-- There is just one header and header-description per component -->
+                <div class="component__header">
+                    Modal
+                </div>
+                <div class="component__header-desc">
+                    Modals can be used to grab user's attention to some important information, that
+                    may or may not require user action. The modal overlays over the complete webpage, and needs to 
+                    be dismissed by performing some action like closing using close button or submitting a form.
+                </div>
+               <!-- There could be multiple example illustrations for a particular component -->
+                <div class="component__example-header">
+                    Demo Modal
+                </div>
+                <div class="component__example-desc">
+                    Copy the following HTML snippet and JS snippet and edit the modal
+                    content according to use case.
+                </div>
+                <div class="component__example-demo input__example-demo-container">
+                    <button class="btn btn-primary show-modal-btn" id="show-modal-btn">Show Modal</button>                    
+                    <div class="modal-container">
+                        <div class="modal">
+                          <header class="modal-header h2 text-center">
+                            <div class="modal-header-text">Modal Heading</div>
+                          </header>
+                          <main class="modal-content p-md text-left">
+                            You are reading this text inside a modal. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur maiores quo magnam porro incidunt.
+                          </main>
+                          <div class="modal-footer text-center">
+                            <button class="btn btn-outline-secondary hide-modal-btn">
+                              Go Back
+                            </button>
+                            <button class="btn btn-primary hide-modal-btn">Accept</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="component__example-code">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=solarized+dark&wt=bw&l=htmlmixed&width=786&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=IBM+Plex+Mono&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cheader%2520class%253D%2522modal-header%2520h2%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header-text%2522%253EModal%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fheader%253E%250A%2520%2520%2520%2520%253Cmain%2520class%253D%2522modal-content%2520p-md%2520text-left%2522%253E%250A%2520%2520%2520%2520%2520%2520You%2520are%2520reading%2520this%2520text%2520inside%2520a%2520modal.%2520Lorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Consequatur%2520maiores%2520quo%2520magnam%2520porro%2520incidunt.%250A%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2520hide-modal-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Go%2520Back%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520hide-modal-btn%2522%253EAccept%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <div class="spacer-8rem"></div>
             <div class="component" id="typography-section">
                 <!-- There is just one header and header-description per component -->
                 <div class="component__header">
@@ -912,4 +1019,5 @@
 </body>
 <script src="./docsite-js/alert.js"></script>
 <script src="./docsite-js/snackbar.js"></script>
+<script src="./docsite-js/modal.js"></script>
 </html>
